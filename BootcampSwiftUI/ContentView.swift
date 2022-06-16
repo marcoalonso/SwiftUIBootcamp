@@ -12,7 +12,8 @@ struct ContentView: View {
         
         //Buttons()
 //        Shapes()
-        Listas()
+        Inits_Enums(count: 10, fruit: .orange)
+        
     }
 }
 

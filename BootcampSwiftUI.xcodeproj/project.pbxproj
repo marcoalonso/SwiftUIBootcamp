@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		603BCB55285BB97F00AFED92 /* EscapingClosures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 603BCB54285BB97F00AFED92 /* EscapingClosures.swift */; };
+		603BCB57285BC0D400AFED92 /* Inits&Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 603BCB56285BC0D400AFED92 /* Inits&Enums.swift */; };
 		6065A536285A57C700F73181 /* Buttons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6065A535285A57C700F73181 /* Buttons.swift */; };
 		6065A53A285A59B000F73181 /* Shapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6065A539285A59B000F73181 /* Shapes.swift */; };
 		6065A53C285A5C5800F73181 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6065A53B285A5C5800F73181 /* Colors.swift */; };
@@ -25,6 +27,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		603BCB54285BB97F00AFED92 /* EscapingClosures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EscapingClosures.swift; sourceTree = "<group>"; };
+		603BCB56285BC0D400AFED92 /* Inits&Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Inits&Enums.swift"; sourceTree = "<group>"; };
 		6065A535285A57C700F73181 /* Buttons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Buttons.swift; sourceTree = "<group>"; };
 		6065A539285A59B000F73181 /* Shapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shapes.swift; sourceTree = "<group>"; };
 		6065A53B285A5C5800F73181 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
@@ -104,6 +108,8 @@
 				6065A541285A642700F73181 /* Backgrounds&Overlays.swift */,
 				60B81560285AACC10019887D /* BindingProperties.swift */,
 				60B81569285AB4E10019887D /* Lists */,
+				603BCB54285BB97F00AFED92 /* EscapingClosures.swift */,
+				603BCB56285BC0D400AFED92 /* Inits&Enums.swift */,
 			);
 			path = BootcampSwiftUI;
 			sourceTree = "<group>";
@@ -187,6 +193,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				60B81565285AB0E00019887D /* Programmer.swift in Sources */,
+				603BCB55285BB97F00AFED92 /* EscapingClosures.swift in Sources */,
 				6065A540285A60EE00F73181 /* Images.swift in Sources */,
 				6065A536285A57C700F73181 /* Buttons.swift in Sources */,
 				60B8156B285AB4FF0019887D /* ListDetailView.swift in Sources */,
@@ -197,6 +204,7 @@
 				60B81568285AB1790019887D /* RowView.swift in Sources */,
 				60D55E9C2857F36400AC43FB /* ContentView.swift in Sources */,
 				60D55E9A2857F36400AC43FB /* BootcampSwiftUIApp.swift in Sources */,
+				603BCB57285BC0D400AFED92 /* Inits&Enums.swift in Sources */,
 				6065A53A285A59B000F73181 /* Shapes.swift in Sources */,
 				60B81563285AB0BF0019887D /* Listas.swift in Sources */,
 			);
