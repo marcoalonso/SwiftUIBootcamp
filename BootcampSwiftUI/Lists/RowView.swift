@@ -9,6 +9,7 @@ import SwiftUI
 
 struct RowView: View {
     
+    //Llega un obj programador
     var programmer: Programmer
     
     var body: some View {
@@ -25,13 +26,18 @@ struct RowView: View {
                 
             }
             Spacer()
+            if programmer.favorite {
+                Image(systemName: "star.fill").foregroundColor(.yellow)
+            }
+            
+            
         }.padding()
     }
 }
 
 struct RowView_Previews: PreviewProvider {
     static var previews: some View {
-        RowView(programmer: Programmer(id: 1, name: "Alonso", languajes: "Swift, Java", avatar: Image(systemName: "person.fill")))
+        RowView(programmer: Programmer(id: 1, name: "Alonso", languajes: "Swift, Java", avatar: Image(systemName: "person.fill"), favorite: false))
             .previewLayout(.sizeThatFits)
     }
 }

@@ -26,6 +26,6 @@ struct ListDetailView: View {
 
 struct ListDetailView_Previews: PreviewProvider {
     static var previews: some View {
-        ListDetailView(programmer: Programmer(id: 1, name: "Marco", languajes: "Swift", avatar: Image(systemName: "person.fill")))
+        ListDetailView(programmer: Programmer(id: 1, name: "Marco", languajes: "Swift", avatar: Image(systemName: "person.fill"), favorite: true))
     }
 }

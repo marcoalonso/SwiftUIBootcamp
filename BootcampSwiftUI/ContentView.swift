@@ -10,9 +10,7 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         
-        //Buttons()
-//        Shapes()
-        Inits_Enums(count: 10, fruit: .orange)
+        ListView()
         
     }
 }
