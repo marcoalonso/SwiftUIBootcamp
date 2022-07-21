@@ -17,6 +17,10 @@
 		6065A53E285A5F0F00F73181 /* Icons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6065A53D285A5F0F00F73181 /* Icons.swift */; };
 		6065A540285A60EE00F73181 /* Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6065A53F285A60EE00F73181 /* Images.swift */; };
 		6065A542285A642700F73181 /* Backgrounds&Overlays.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6065A541285A642700F73181 /* Backgrounds&Overlays.swift */; };
+		6072442D287D1CAA00FB2361 /* Groups.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6072442C287D1CAA00FB2361 /* Groups.swift */; };
+		607CD9F6286C0C900019C345 /* StateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607CD9F5286C0C900019C345 /* StateView.swift */; };
+		607CD9F8286C0D560019C345 /* BindingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607CD9F7286C0D560019C345 /* BindingView.swift */; };
+		6094B56A2889F5F700F47CC9 /* StateExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6094B5692889F5F700F47CC9 /* StateExample.swift */; };
 		60B81561285AACC10019887D /* BindingProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60B81560285AACC10019887D /* BindingProperties.swift */; };
 		60B81563285AB0BF0019887D /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60B81562285AB0BF0019887D /* ListView.swift */; };
 		60B81565285AB0E00019887D /* Programmer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60B81564285AB0E00019887D /* Programmer.swift */; };
@@ -39,6 +43,10 @@
 		6065A53D285A5F0F00F73181 /* Icons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Icons.swift; sourceTree = "<group>"; };
 		6065A53F285A60EE00F73181 /* Images.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Images.swift; sourceTree = "<group>"; };
 		6065A541285A642700F73181 /* Backgrounds&Overlays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Backgrounds&Overlays.swift"; sourceTree = "<group>"; };
+		6072442C287D1CAA00FB2361 /* Groups.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Groups.swift; sourceTree = "<group>"; };
+		607CD9F5286C0C900019C345 /* StateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateView.swift; sourceTree = "<group>"; };
+		607CD9F7286C0D560019C345 /* BindingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingView.swift; sourceTree = "<group>"; };
+		6094B5692889F5F700F47CC9 /* StateExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateExample.swift; sourceTree = "<group>"; };
 		60B81560285AACC10019887D /* BindingProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingProperties.swift; sourceTree = "<group>"; };
 		60B81562285AB0BF0019887D /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 		60B81564285AB0E00019887D /* Programmer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Programmer.swift; sourceTree = "<group>"; };
@@ -62,6 +70,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		607CD9F4286C0C150019C345 /* PropertyWrappers */ = {
+			isa = PBXGroup;
+			children = (
+				607CD9F5286C0C900019C345 /* StateView.swift */,
+				607CD9F7286C0D560019C345 /* BindingView.swift */,
+				6094B5692889F5F700F47CC9 /* StateExample.swift */,
+			);
+			path = PropertyWrappers;
+			sourceTree = "<group>";
+		};
 		60B81566285AB11B0019887D /* Data */ = {
 			isa = PBXGroup;
 			children = (
@@ -100,6 +118,7 @@
 		60D55E982857F36400AC43FB /* BootcampSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				607CD9F4286C0C150019C345 /* PropertyWrappers */,
 				60D55E992857F36400AC43FB /* BootcampSwiftUIApp.swift */,
 				60D55E9B2857F36400AC43FB /* ContentView.swift */,
 				60D55E9D2857F36500AC43FB /* Assets.xcassets */,
@@ -116,6 +135,7 @@
 				603BCB56285BC0D400AFED92 /* Inits&Enums.swift */,
 				603BCB58285BC61800AFED92 /* StateBootcamp.swift */,
 				6059129D2862BA210061B2B9 /* SegmentedControl.swift */,
+				6072442C287D1CAA00FB2361 /* Groups.swift */,
 			);
 			path = BootcampSwiftUI;
 			sourceTree = "<group>";
@@ -199,12 +219,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				60B81565285AB0E00019887D /* Programmer.swift in Sources */,
+				607CD9F8286C0D560019C345 /* BindingView.swift in Sources */,
 				603BCB55285BB97F00AFED92 /* EscapingClosures.swift in Sources */,
+				6072442D287D1CAA00FB2361 /* Groups.swift in Sources */,
 				6065A540285A60EE00F73181 /* Images.swift in Sources */,
 				6065A536285A57C700F73181 /* Buttons.swift in Sources */,
 				603BCB59285BC61800AFED92 /* StateBootcamp.swift in Sources */,
 				60B8156B285AB4FF0019887D /* ListDetailView.swift in Sources */,
+				607CD9F6286C0C900019C345 /* StateView.swift in Sources */,
 				60B81561285AACC10019887D /* BindingProperties.swift in Sources */,
+				6094B56A2889F5F700F47CC9 /* StateExample.swift in Sources */,
 				6065A53C285A5C5800F73181 /* Colors.swift in Sources */,
 				6065A542285A642700F73181 /* Backgrounds&Overlays.swift in Sources */,
 				6065A53E285A5F0F00F73181 /* Icons.swift in Sources */,
