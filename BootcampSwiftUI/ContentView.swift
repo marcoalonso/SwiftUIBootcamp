@@ -10,7 +10,16 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         
-        StateView()
+        TabView {
+            StateView()
+                .tabItem {
+                    Label("StateViews", systemImage: "list.dash")
+                }
+            Animation()
+                .tabItem {
+                    Label("Animations", systemImage: "circle.fill")
+                }
+        }
         
     }
 }
